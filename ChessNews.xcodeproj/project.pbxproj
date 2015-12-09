@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		C6725E381BFB75C900E4D3B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6725E371BFB75C900E4D3B4 /* AppDelegate.swift */; };
-		C6725E3A1BFB75C900E4D3B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6725E391BFB75C900E4D3B4 /* ViewController.swift */; };
 		C6725E3D1BFB75C900E4D3B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6725E3B1BFB75C900E4D3B4 /* Main.storyboard */; };
 		C6725E401BFB75C900E4D3B4 /* ChessNews.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C6725E3E1BFB75C900E4D3B4 /* ChessNews.xcdatamodeld */; };
 		C6725E421BFB75C900E4D3B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6725E411BFB75C900E4D3B4 /* Assets.xcassets */; };
@@ -18,7 +17,6 @@
 /* Begin PBXFileReference section */
 		C6725E341BFB75C900E4D3B4 /* ChessNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChessNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6725E371BFB75C900E4D3B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C6725E391BFB75C900E4D3B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C6725E3C1BFB75C900E4D3B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C6725E3F1BFB75C900E4D3B4 /* ChessNews.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ChessNews.xcdatamodel; sourceTree = "<group>"; };
 		C6725E411BFB75C900E4D3B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,7 +55,6 @@
 			isa = PBXGroup;
 			children = (
 				C6725E371BFB75C900E4D3B4 /* AppDelegate.swift */,
-				C6725E391BFB75C900E4D3B4 /* ViewController.swift */,
 				C6725E3B1BFB75C900E4D3B4 /* Main.storyboard */,
 				C6725E411BFB75C900E4D3B4 /* Assets.xcassets */,
 				C6725E431BFB75C900E4D3B4 /* LaunchScreen.storyboard */,
@@ -138,7 +135,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6725E401BFB75C900E4D3B4 /* ChessNews.xcdatamodeld in Sources */,
-				C6725E3A1BFB75C900E4D3B4 /* ViewController.swift in Sources */,
 				C6725E381BFB75C900E4D3B4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,6 +285,7 @@
 				C6725E4B1BFB75C900E4D3B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
