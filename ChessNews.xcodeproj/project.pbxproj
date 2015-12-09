@@ -38,6 +38,7 @@
 		C610C7561C17C93400FCD716 /* NSDate+InternetDateTime.m in Sources */ = {isa = PBXBuildFile; fileRef = C610C7361C17C93400FCD716 /* NSDate+InternetDateTime.m */; settings = {ASSET_TAGS = (); }; };
 		C610C7571C17C93400FCD716 /* NSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = C610C7381C17C93400FCD716 /* NSString+HTML.m */; settings = {ASSET_TAGS = (); }; };
 		C610C7581C17C93400FCD716 /* NSString+XMLEntities.m in Sources */ = {isa = PBXBuildFile; fileRef = C610C73A1C17C93400FCD716 /* NSString+XMLEntities.m */; settings = {ASSET_TAGS = (); }; };
+		C610C7611C17CD4200FCD716 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C610C7601C17CD4200FCD716 /* CoreData.framework */; };
 		C6725E381BFB75C900E4D3B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6725E371BFB75C900E4D3B4 /* AppDelegate.swift */; };
 		C6725E3D1BFB75C900E4D3B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6725E3B1BFB75C900E4D3B4 /* Main.storyboard */; };
 		C6725E401BFB75C900E4D3B4 /* ChessNews.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C6725E3E1BFB75C900E4D3B4 /* ChessNews.xcdatamodeld */; };
@@ -107,6 +108,7 @@
 		C610C7391C17C93400FCD716 /* NSString+XMLEntities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+XMLEntities.h"; sourceTree = "<group>"; };
 		C610C73A1C17C93400FCD716 /* NSString+XMLEntities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XMLEntities.m"; sourceTree = "<group>"; };
 		C610C75F1C17CADD00FCD716 /* Bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bridge.h; sourceTree = "<group>"; };
+		C610C7601C17CD4200FCD716 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		C6725E341BFB75C900E4D3B4 /* ChessNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChessNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6725E371BFB75C900E4D3B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C6725E3C1BFB75C900E4D3B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C610C7611C17CD4200FCD716 /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,6 +213,7 @@
 		C6725E2B1BFB75C800E4D3B4 = {
 			isa = PBXGroup;
 			children = (
+				C610C7601C17CD4200FCD716 /* CoreData.framework */,
 				C6725E361BFB75C900E4D3B4 /* ChessNews */,
 				C6725E351BFB75C900E4D3B4 /* Products */,
 			);
