@@ -81,6 +81,23 @@ class FeedTableViewController: UITableViewController, MWFeedParserDelegate {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    // When row is selected
+    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        // get selected feed item
+        let item = feedItems[indexPath.row] as MWFeedItem
+        
+        // setup KINWebBrowser
+        let browser = KINWebBrowserViewController()
+        // get url from feed item
+        let url = NSURL(string: item.link)
+        
+        // load browser with item url
+        browser.loadURL(url)
+        
+        // push the browser on navigation controller stack
+        self.navigationController?.pushViewController(browser, animated: true)
+    }
 
     /*
     // Override to support conditional editing of the table view.
