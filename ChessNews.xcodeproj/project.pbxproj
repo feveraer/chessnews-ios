@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C610C6F91C17C2D000FCD716 /* FeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C610C6F81C17C2D000FCD716 /* FeedTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		C6725E381BFB75C900E4D3B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6725E371BFB75C900E4D3B4 /* AppDelegate.swift */; };
 		C6725E3D1BFB75C900E4D3B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6725E3B1BFB75C900E4D3B4 /* Main.storyboard */; };
 		C6725E401BFB75C900E4D3B4 /* ChessNews.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C6725E3E1BFB75C900E4D3B4 /* ChessNews.xcdatamodeld */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C610C6F81C17C2D000FCD716 /* FeedTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedTableViewController.swift; sourceTree = "<group>"; };
 		C6725E341BFB75C900E4D3B4 /* ChessNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChessNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6725E371BFB75C900E4D3B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C6725E3C1BFB75C900E4D3B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -55,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				C6725E371BFB75C900E4D3B4 /* AppDelegate.swift */,
+				C610C6F81C17C2D000FCD716 /* FeedTableViewController.swift */,
 				C6725E3B1BFB75C900E4D3B4 /* Main.storyboard */,
 				C6725E411BFB75C900E4D3B4 /* Assets.xcassets */,
 				C6725E431BFB75C900E4D3B4 /* LaunchScreen.storyboard */,
@@ -135,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6725E401BFB75C900E4D3B4 /* ChessNews.xcdatamodeld in Sources */,
+				C610C6F91C17C2D000FCD716 /* FeedTableViewController.swift in Sources */,
 				C6725E381BFB75C900E4D3B4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
