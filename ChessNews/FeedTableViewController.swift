@@ -63,24 +63,24 @@ class FeedTableViewController: UITableViewController, MWFeedParserDelegate {
     // MARK: - Table view data source
 
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
-        return 0
+        //return number of sections
+        return 1
     }
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
-        return 0
+        //return number of rows
+        return feedItems.count
     }
 
-    /*
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath)
 
         // Configure the cell...
+        let item = feedItems[indexPath.row] as MWFeedItem
+        cell.textLabel?.text = item.title
 
         return cell
     }
-    */
 
     /*
     // Override to support conditional editing of the table view.
