@@ -33,10 +33,16 @@ class FeedTableViewController: UITableViewController, MWFeedParserDelegate {
         self.tableView.reloadData()
     }
     
+    // Provides info about the feed
     func feedParser(parser: MWFeedParser!, didParseFeedInfo info: MWFeedInfo!) {
         print(info)
         //display feed title in navigation bar
         self.title = info.title
+    }
+    
+    // Provides info about a feed item
+    func feedParser(parser: MWFeedParser!, didParseFeedItem item: MWFeedItem!) {
+        feedItems.append(item)
     }
     
     override func viewDidLoad() {
