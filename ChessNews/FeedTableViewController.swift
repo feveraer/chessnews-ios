@@ -10,6 +10,12 @@ import UIKit
 
 class FeedTableViewController: UITableViewController {
 
+    //setup MWFeedParser
+    func request() {
+        let url = NSURL(string: "http://www.chessdom.com/feed/")
+        let parser = MWFeedParser(feedURL: url)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
