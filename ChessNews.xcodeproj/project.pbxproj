@@ -106,6 +106,7 @@
 		C610C7381C17C93400FCD716 /* NSString+HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HTML.m"; sourceTree = "<group>"; };
 		C610C7391C17C93400FCD716 /* NSString+XMLEntities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+XMLEntities.h"; sourceTree = "<group>"; };
 		C610C73A1C17C93400FCD716 /* NSString+XMLEntities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XMLEntities.m"; sourceTree = "<group>"; };
+		C610C75F1C17CADD00FCD716 /* Bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bridge.h; sourceTree = "<group>"; };
 		C6725E341BFB75C900E4D3B4 /* ChessNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChessNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6725E371BFB75C900E4D3B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C6725E3C1BFB75C900E4D3B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -227,6 +228,7 @@
 			children = (
 				C610C6FA1C17C93400FCD716 /* lib */,
 				C6725E371BFB75C900E4D3B4 /* AppDelegate.swift */,
+				C610C75F1C17CADD00FCD716 /* Bridge.h */,
 				C610C6F81C17C2D000FCD716 /* FeedTableViewController.swift */,
 				C6725E3B1BFB75C900E4D3B4 /* Main.storyboard */,
 				C6725E411BFB75C900E4D3B4 /* Assets.xcassets */,
