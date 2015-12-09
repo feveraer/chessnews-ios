@@ -10,6 +10,8 @@ import UIKit
 
 class FeedTableViewController: UITableViewController, MWFeedParserDelegate {
 
+    var feedItems = [MWFeedItem]()
+    
     //setup MWFeedParser
     func request() {
         let url = NSURL(string: "http://www.chessdom.com/feed/")
@@ -17,6 +19,24 @@ class FeedTableViewController: UITableViewController, MWFeedParserDelegate {
         
         parser.delegate = self
         parser.parse()
+    }
+    
+    //MWFeedParser delegate
+    
+    func feedParserDidStart(parser: MWFeedParser!) {
+        //clear feed items
+        feedItems = [MWFeedItem]()
+    }
+    
+    func feedParserDidFinish(parser: MWFeedParser!) {
+        //after parse, reload data tableview
+        self.tableView.reloadData()
+    }
+    
+    func feedParser(parser: MWFeedParser!, didParseFeedInfo info: MWFeedInfo!) {
+        print(info)
+        //display feed title in navigation bar
+        self.title = info.title
     }
     
     override func viewDidLoad() {
