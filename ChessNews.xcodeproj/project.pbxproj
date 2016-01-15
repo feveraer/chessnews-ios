@@ -40,6 +40,8 @@
 		C610C7581C17C93400FCD716 /* NSString+XMLEntities.m in Sources */ = {isa = PBXBuildFile; fileRef = C610C73A1C17C93400FCD716 /* NSString+XMLEntities.m */; settings = {ASSET_TAGS = (); }; };
 		C610C7611C17CD4200FCD716 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C610C7601C17CD4200FCD716 /* CoreData.framework */; };
 		C610C7631C18128A00FCD716 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C610C7621C18128A00FCD716 /* MainViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		C671494A1C497B6D0064E617 /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67149491C497B6D0064E617 /* Feed.swift */; settings = {ASSET_TAGS = (); }; };
+		C671494E1C49975E0064E617 /* FeedsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C671494D1C49975E0064E617 /* FeedsModel.swift */; settings = {ASSET_TAGS = (); }; };
 		C6725E381BFB75C900E4D3B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6725E371BFB75C900E4D3B4 /* AppDelegate.swift */; };
 		C6725E3D1BFB75C900E4D3B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6725E3B1BFB75C900E4D3B4 /* Main.storyboard */; };
 		C6725E401BFB75C900E4D3B4 /* ChessNews.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C6725E3E1BFB75C900E4D3B4 /* ChessNews.xcdatamodeld */; };
@@ -111,6 +113,8 @@
 		C610C75F1C17CADD00FCD716 /* Bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bridge.h; sourceTree = "<group>"; };
 		C610C7601C17CD4200FCD716 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		C610C7621C18128A00FCD716 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		C67149491C497B6D0064E617 /* Feed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
+		C671494D1C49975E0064E617 /* FeedsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedsModel.swift; sourceTree = "<group>"; };
 		C6725E341BFB75C900E4D3B4 /* ChessNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChessNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6725E371BFB75C900E4D3B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C6725E3C1BFB75C900E4D3B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -221,6 +225,15 @@
 			name = Controllers;
 			sourceTree = "<group>";
 		};
+		C67149481C497B4C0064E617 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C67149491C497B6D0064E617 /* Feed.swift */,
+				C671494D1C49975E0064E617 /* FeedsModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		C6725E2B1BFB75C800E4D3B4 = {
 			isa = PBXGroup;
 			children = (
@@ -241,6 +254,7 @@
 		C6725E361BFB75C900E4D3B4 /* ChessNews */ = {
 			isa = PBXGroup;
 			children = (
+				C67149481C497B4C0064E617 /* Model */,
 				C610C7641C1812B700FCD716 /* Controllers */,
 				C610C6FA1C17C93400FCD716 /* lib */,
 				C6725E371BFB75C900E4D3B4 /* AppDelegate.swift */,
@@ -363,7 +377,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6725E401BFB75C900E4D3B4 /* ChessNews.xcdatamodeld in Sources */,
+				C671494A1C497B6D0064E617 /* Feed.swift in Sources */,
 				C610C74A1C17C93400FCD716 /* TUSafariActivity.m in Sources */,
+				C671494E1C49975E0064E617 /* FeedsModel.swift in Sources */,
 				C610C7551C17C93400FCD716 /* MWFeedParser.m in Sources */,
 				C610C6F91C17C2D000FCD716 /* FeedTableViewController.swift in Sources */,
 				C610C7541C17C93400FCD716 /* MWFeedItem.m in Sources */,

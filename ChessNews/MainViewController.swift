@@ -10,22 +10,37 @@ import UIKit
 
 class MainViewController: UIViewController {
 
+    @IBOutlet weak var feedsStack: UIStackView!
+    
+    var model = FeedsModel()
+    var selectedFeed: Feed!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        for view in feedsStack.arrangedSubviews {
+            view.removeFromSuperview()
+        }
+        
+        for feed in model.feeds {
+            let button = UIButton(type: .System)
+            button.setTitle(feed.name, forState: .Normal)
+            button.addTarget(self, action: "choose:", forControlEvents: .TouchUpInside)
+
+            feedsStack.addArrangedSubview(button)
+        }
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    func choose(sender: UIButton) {
+        selectedFeed = model.feeds.filter {
+            $0.name == sender.titleLabel!.text }.first!
+        performSegueWithIdentifier("choose", sender: self)
     }
-    
-    // MARK: - Navigation
 
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         // Get the new view controller using segue.destinationViewController.
         let feedTableViewController = segue.destinationViewController as! FeedTableViewController
+        feedTableViewController.feed = selectedFeed
         
         // Pass the selected object to the new view controller.
     }

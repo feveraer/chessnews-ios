@@ -10,6 +10,7 @@ import UIKit
 
 class FeedTableViewController: UITableViewController, MWFeedParserDelegate {
 
+    var feed: Feed!
     var feedItems = [MWFeedItem]()
     
     //setup MWFeedParser
