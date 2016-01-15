@@ -15,7 +15,7 @@ class FeedTableViewController: UITableViewController, MWFeedParserDelegate {
     
     //setup MWFeedParser
     func request() {
-        let url = NSURL(string: "http://www.chessdom.com/feed/")
+        let url = NSURL(string: feed.url)
         let parser = MWFeedParser(feedURL: url)
         
         parser.delegate = self
