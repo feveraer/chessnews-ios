@@ -47,13 +47,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Chess news sources:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dzq-h0-9a1">
-                                <rect key="frame" x="51" y="110" width="207" height="21"/>
+                                <rect key="frame" x="51" y="110" width="268" height="44"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="Wgw-yk-Di6">
-                                <rect key="frame" x="51" y="147" width="74" height="81"/>
+                                <rect key="frame" x="51" y="162" width="74" height="81"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lVC-ER-KE6">
                                         <rect key="frame" x="0.0" y="0.0" width="74" height="51"/>
@@ -101,7 +101,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="Wgw-yk-Di6" firstAttribute="top" secondItem="Z63-yp-gKw" secondAttribute="bottom" constant="83" id="4TN-Pb-aGL"/>
+                            <constraint firstItem="Wgw-yk-Di6" firstAttribute="top" secondItem="Z63-yp-gKw" secondAttribute="bottom" constant="98" id="4TN-Pb-aGL"/>
                             <constraint firstItem="Wgw-yk-Di6" firstAttribute="leading" secondItem="hbS-Nk-7ED" secondAttribute="leadingMargin" constant="31" id="fwb-JS-jpv"/>
                         </constraints>
                     </view>
