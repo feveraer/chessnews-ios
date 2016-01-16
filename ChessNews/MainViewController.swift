@@ -10,18 +10,19 @@ import UIKit
 
 class MainViewController: UIViewController {
 
+    // contains feed buttons
     @IBOutlet weak var feedsStack: UIStackView!
     
     var model = FeedsModel()
     var selectedFeed: Feed!
     
     override func viewDidLoad() {
-        super.viewDidLoad()
-
+        // first remove template buttons from storyboard
         for view in feedsStack.arrangedSubviews {
             view.removeFromSuperview()
         }
         
+        // add a button to feedsStack for each feed in model
         for feed in model.feeds {
             let button = UIButton(type: .System)
             button.setTitle(feed.name, forState: .Normal)
@@ -31,6 +32,7 @@ class MainViewController: UIViewController {
         }
     }
 
+    // fired when clicked on a feed button
     func choose(sender: UIButton) {
         selectedFeed = model.feeds.filter {
             $0.name == sender.titleLabel!.text }.first!
@@ -38,11 +40,9 @@ class MainViewController: UIViewController {
     }
 
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
+        // get the new view controller using segue.destinationViewController
         let feedTableViewController = segue.destinationViewController as! FeedTableViewController
         feedTableViewController.feed = selectedFeed
-        
-        // Pass the selected object to the new view controller.
     }
     
 }
