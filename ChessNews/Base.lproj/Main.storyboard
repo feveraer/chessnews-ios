@@ -204,7 +204,7 @@
         <scene sceneID="Sg4-md-TGy">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Kzy-Ra-tOn" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="News" image="rss-7.png" id="dpl-kI-WDC"/>
+                    <tabBarItem key="tabBarItem" title="News" image="rss-7" id="dpl-kI-WDC"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="29v-CX-SgH">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -223,7 +223,7 @@
         <scene sceneID="4xm-OF-HIK">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Hup-eB-3S5" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Rankings" image="crown-7.png" id="PgK-9H-Dtb"/>
+                    <tabBarItem key="tabBarItem" title="Rankings" image="crown-7" id="PgK-9H-Dtb"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="feE-v8-bDA">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -240,7 +240,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="crown-7.png" width="30" height="30"/>
-        <image name="rss-7.png" width="30" height="30"/>
+        <image name="crown-7" width="30" height="30"/>
+        <image name="rss-7" width="30" height="30"/>
     </resources>
 </document>

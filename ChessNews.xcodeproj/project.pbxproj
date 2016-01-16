@@ -19,8 +19,6 @@
 		C6725E401BFB75C900E4D3B4 /* ChessNews.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C6725E3E1BFB75C900E4D3B4 /* ChessNews.xcdatamodeld */; };
 		C6725E421BFB75C900E4D3B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6725E411BFB75C900E4D3B4 /* Assets.xcassets */; };
 		C6725E451BFB75C900E4D3B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6725E431BFB75C900E4D3B4 /* LaunchScreen.storyboard */; };
-		C6E67C861C4A03BF003CD91F /* crown-7.png in Resources */ = {isa = PBXBuildFile; fileRef = C6E67C851C4A03BF003CD91F /* crown-7.png */; settings = {ASSET_TAGS = (); }; };
-		C6E67C881C4A042E003CD91F /* rss-7.png in Resources */ = {isa = PBXBuildFile; fileRef = C6E67C871C4A042E003CD91F /* rss-7.png */; settings = {ASSET_TAGS = (); }; };
 		C6F12D991C49D64300EE67F6 /* PlayerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F12D981C49D64300EE67F6 /* PlayerCell.swift */; settings = {ASSET_TAGS = (); }; };
 		C6F12D9D1C49F1B800EE67F6 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F12D9C1C49F1B800EE67F6 /* Player.swift */; settings = {ASSET_TAGS = (); }; };
 		C6F12D9F1C49F22300EE67F6 /* RankingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F12D9E1C49F22300EE67F6 /* RankingsModel.swift */; settings = {ASSET_TAGS = (); }; };
@@ -43,8 +41,6 @@
 		C6725E411BFB75C900E4D3B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C6725E441BFB75C900E4D3B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C6725E461BFB75C900E4D3B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C6E67C851C4A03BF003CD91F /* crown-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "crown-7.png"; sourceTree = "<group>"; };
-		C6E67C871C4A042E003CD91F /* rss-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rss-7.png"; sourceTree = "<group>"; };
 		C6F12D981C49D64300EE67F6 /* PlayerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerCell.swift; sourceTree = "<group>"; };
 		C6F12D9C1C49F1B800EE67F6 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		C6F12D9E1C49F22300EE67F6 /* RankingsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RankingsModel.swift; sourceTree = "<group>"; };
@@ -115,7 +111,6 @@
 		C6725E361BFB75C900E4D3B4 /* ChessNews */ = {
 			isa = PBXGroup;
 			children = (
-				C6E67C841C4A037C003CD91F /* Images */,
 				C67149481C497B4C0064E617 /* Model */,
 				C610C7641C1812B700FCD716 /* Controllers */,
 				C6725E371BFB75C900E4D3B4 /* AppDelegate.swift */,
@@ -127,15 +122,6 @@
 				C6F12D981C49D64300EE67F6 /* PlayerCell.swift */,
 			);
 			path = ChessNews;
-			sourceTree = "<group>";
-		};
-		C6E67C841C4A037C003CD91F /* Images */ = {
-			isa = PBXGroup;
-			children = (
-				C6E67C871C4A042E003CD91F /* rss-7.png */,
-				C6E67C851C4A03BF003CD91F /* crown-7.png */,
-			);
-			name = Images;
 			sourceTree = "<group>";
 		};
 		E5F471FDEBD5A47E9B528A36 /* Frameworks */ = {
@@ -224,9 +210,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6E67C881C4A042E003CD91F /* rss-7.png in Resources */,
 				C6725E451BFB75C900E4D3B4 /* LaunchScreen.storyboard in Resources */,
-				C6E67C861C4A03BF003CD91F /* crown-7.png in Resources */,
 				C6725E421BFB75C900E4D3B4 /* Assets.xcassets in Resources */,
 				C6725E3D1BFB75C900E4D3B4 /* Main.storyboard in Resources */,
 			);
