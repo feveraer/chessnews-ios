@@ -10,5 +10,5 @@ struct Player {
     let name: String
     let flag: String
     let ranking: Int
-    let rating: Int
+    let rating: Float
 }

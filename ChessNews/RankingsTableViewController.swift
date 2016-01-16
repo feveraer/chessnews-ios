@@ -13,7 +13,9 @@ class RankingsTableViewController: UITableViewController {
     let model = RankingsModel()
     
     override func viewDidLoad() {
-        super.viewDidLoad()
+        for player in model.rankings {
+            print(player)
+        }
     }
     
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
