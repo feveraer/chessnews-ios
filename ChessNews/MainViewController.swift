@@ -26,6 +26,7 @@ class MainViewController: UICollectionViewController {
         let feed = model.feeds[indexPath.row]
         
         cell.feedImageView!.image = feed.image
+        // little bit of leading space
         cell.feedLabel!.text = "  " + feed.name
         
         return cell
