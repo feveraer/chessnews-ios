@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		21FEA0A5CB3CBB2638EAAF54 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1F17819488F9E60372A96D0 /* Pods.framework */; };
+		C60D914E1C4AE10C00A6451E /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60D914D1C4AE10C00A6451E /* FeedCell.swift */; settings = {ASSET_TAGS = (); }; };
 		C610C6F91C17C2D000FCD716 /* FeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C610C6F81C17C2D000FCD716 /* FeedTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		C610C7611C17CD4200FCD716 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C610C7601C17CD4200FCD716 /* CoreData.framework */; };
 		C610C7631C18128A00FCD716 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C610C7621C18128A00FCD716 /* MainViewController.swift */; settings = {ASSET_TAGS = (); }; };
@@ -28,6 +29,7 @@
 		9B562BC75B0DF67CD439B276 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		B1F17819488F9E60372A96D0 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C01CB452E6CE59824704E1B4 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		C60D914D1C4AE10C00A6451E /* FeedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		C610C6F81C17C2D000FCD716 /* FeedTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedTableViewController.swift; sourceTree = "<group>"; };
 		C610C7601C17CD4200FCD716 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		C610C7621C18128A00FCD716 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 				C6725E461BFB75C900E4D3B4 /* Info.plist */,
 				C6725E3E1BFB75C900E4D3B4 /* ChessNews.xcdatamodeld */,
 				C6F12D981C49D64300EE67F6 /* PlayerCell.swift */,
+				C60D914D1C4AE10C00A6451E /* FeedCell.swift */,
 			);
 			path = ChessNews;
 			sourceTree = "<group>";
@@ -275,6 +278,7 @@
 				C671494A1C497B6D0064E617 /* Feed.swift in Sources */,
 				C671494E1C49975E0064E617 /* FeedsModel.swift in Sources */,
 				C610C6F91C17C2D000FCD716 /* FeedTableViewController.swift in Sources */,
+				C60D914E1C4AE10C00A6451E /* FeedCell.swift in Sources */,
 				C6725E381BFB75C900E4D3B4 /* AppDelegate.swift in Sources */,
 				C610C7631C18128A00FCD716 /* MainViewController.swift in Sources */,
 				C6F12D991C49D64300EE67F6 /* PlayerCell.swift in Sources */,

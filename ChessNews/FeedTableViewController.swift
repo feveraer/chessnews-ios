@@ -67,7 +67,7 @@ class FeedTableViewController: UITableViewController, MWFeedParserDelegate {
 
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
-        let cell = tableView.dequeueReusableCellWithIdentifier("feedCell", forIndexPath: indexPath)
+        let cell = tableView.dequeueReusableCellWithIdentifier("feedItemCell", forIndexPath: indexPath)
 
         // configure the cell
         let item = feedItems[indexPath.row] as MWFeedItem
