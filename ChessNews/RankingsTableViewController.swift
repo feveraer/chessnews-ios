@@ -7,7 +7,9 @@
 //
 
 import UIKit
+import Kanna
 
 class RankingsTableViewController: UITableViewController {
+    
     
 }
