@@ -12,6 +12,6 @@ class PlayerCell: UITableViewCell {
     
     @IBOutlet weak var rankingLabel: UILabel!
     @IBOutlet weak var nameLabel: UILabel!
-    @IBOutlet weak var flagView: UIView!
+    @IBOutlet weak var flagView: UIImageView!
     @IBOutlet weak var ratingLabel: UILabel!
 }

@@ -23,4 +23,22 @@ class RankingsTableViewController: UITableViewController {
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return model.players.count
     }
+    
+    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        
+        let cell = tableView.dequeueReusableCellWithIdentifier("playerCell", forIndexPath: indexPath) as! PlayerCell
+        
+        let player = model.players[indexPath.row]
+        
+        cell.rankingLabel.text = "\(player.ranking)"
+        cell.nameLabel.text = player.name
+        cell.ratingLabel.text = "\(player.rating)"
+        
+        if let flagImagePath = NSBundle.mainBundle().pathForResource(model.source + player.flag, ofType: "gif"), image = UIImage(contentsOfFile: flagImagePath) {
+            cell.flagView.contentMode = .ScaleAspectFit
+            cell.flagView.image = image
+        }
+        
+        return cell
+    }
 }
