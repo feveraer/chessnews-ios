@@ -50,6 +50,8 @@
 		C6725E421BFB75C900E4D3B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6725E411BFB75C900E4D3B4 /* Assets.xcassets */; };
 		C6725E451BFB75C900E4D3B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6725E431BFB75C900E4D3B4 /* LaunchScreen.storyboard */; };
 		C6F12D991C49D64300EE67F6 /* PlayerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F12D981C49D64300EE67F6 /* PlayerCell.swift */; settings = {ASSET_TAGS = (); }; };
+		C6F12D9D1C49F1B800EE67F6 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F12D9C1C49F1B800EE67F6 /* Player.swift */; settings = {ASSET_TAGS = (); }; };
+		C6F12D9F1C49F22300EE67F6 /* RankingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F12D9E1C49F22300EE67F6 /* RankingsModel.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -130,6 +132,8 @@
 		C6725E441BFB75C900E4D3B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C6725E461BFB75C900E4D3B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C6F12D981C49D64300EE67F6 /* PlayerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerCell.swift; sourceTree = "<group>"; };
+		C6F12D9C1C49F1B800EE67F6 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		C6F12D9E1C49F22300EE67F6 /* RankingsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RankingsModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -249,6 +253,8 @@
 			children = (
 				C67149491C497B6D0064E617 /* Feed.swift */,
 				C671494D1C49975E0064E617 /* FeedsModel.swift */,
+				C6F12D9C1C49F1B800EE67F6 /* Player.swift */,
+				C6F12D9E1C49F22300EE67F6 /* RankingsModel.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -473,6 +479,8 @@
 				C610C73B1C17C93400FCD716 /* ARChromeActivity.m in Sources */,
 				C67149501C49C84B0064E617 /* RankingsTableViewController.swift in Sources */,
 				C610C7571C17C93400FCD716 /* NSString+HTML.m in Sources */,
+				C6F12D9F1C49F22300EE67F6 /* RankingsModel.swift in Sources */,
+				C6F12D9D1C49F1B800EE67F6 /* Player.swift in Sources */,
 				C610C74B1C17C93400FCD716 /* GTMNSString+HTML.m in Sources */,
 				C610C7581C17C93400FCD716 /* NSString+XMLEntities.m in Sources */,
 			);

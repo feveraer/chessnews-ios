@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="rxd-b4-ykf">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="He1-5R-53e">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
@@ -32,7 +32,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="n8o-D6-fqB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1854" y="357"/>
+            <point key="canvasLocation" x="3478" y="357"/>
         </scene>
         <!--Chess news-->
         <scene sceneID="gos-8e-Qos">
@@ -46,12 +46,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Chess news sources:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dzq-h0-9a1">
-                                <rect key="frame" x="51" y="110" width="268" height="44"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="Wgw-yk-Di6">
                                 <rect key="frame" x="51" y="162" width="74" height="81"/>
                                 <subviews>
@@ -98,6 +92,12 @@
                                     </mask>
                                 </variation>
                             </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Chess news sources" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dzq-h0-9a1">
+                                <rect key="frame" x="51" y="110" width="268" height="44"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -109,12 +109,11 @@
                     <connections>
                         <outlet property="feedsStack" destination="Wgw-yk-Di6" id="zBL-nQ-sWx"/>
                         <segue destination="4td-1Z-LCQ" kind="show" identifier="choose" id="7Y0-zf-RDk"/>
-                        <segue destination="2zt-Oe-wm6" kind="show" identifier="leaderboard" id="CAu-0w-gpR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kxF-bA-Hal" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1081" y="357"/>
+            <point key="canvasLocation" x="2705" y="357"/>
         </scene>
         <!--Rankings Table View Controller-->
         <scene sceneID="Du9-OL-i8b">
@@ -176,28 +175,68 @@
                             <outlet property="delegate" destination="2zt-Oe-wm6" id="1sW-8H-6WO"/>
                         </connections>
                     </tableView>
+                    <navigationItem key="navigationItem" id="p4e-Cq-3cE"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yHL-O1-bA1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1382" y="1105"/>
+            <point key="canvasLocation" x="2194" y="1105"/>
         </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="u7k-rb-jfo">
+        <!--Tab Bar Controller-->
+        <scene sceneID="bjg-TR-neO">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="rxd-b4-ykf" sceneMemberID="viewController">
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="He1-5R-53e" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Uxc-7V-KFF">
+                    <navigationItem key="navigationItem" id="E7C-ki-jog"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="6hQ-BM-HoY">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Kzy-Ra-tOn" kind="relationship" relationship="viewControllers" id="obK-oB-Jfr"/>
+                        <segue destination="Hup-eB-3S5" kind="relationship" relationship="viewControllers" id="acQ-my-RQb"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NDk-u3-8Sd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1081" y="357"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="Sg4-md-TGy">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Kzy-Ra-tOn" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="dpl-kI-WDC"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="29v-CX-SgH">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="81h-Ge-9in" kind="relationship" relationship="rootViewController" id="hXy-qY-e6n"/>
+                        <segue destination="81h-Ge-9in" kind="relationship" relationship="rootViewController" id="KzG-bo-6xT"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="cfZ-iB-CWv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zsH-TC-ujt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="283" y="357"/>
+            <point key="canvasLocation" x="1893" y="357"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="4xm-OF-HIK">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Hup-eB-3S5" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="PgK-9H-Dtb"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="feE-v8-bDA">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="2zt-Oe-wm6" kind="relationship" relationship="rootViewController" id="znI-lX-dwO"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5Va-3f-XUA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1382" y="1105"/>
         </scene>
     </scenes>
 </document>

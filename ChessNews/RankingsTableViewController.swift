@@ -7,12 +7,13 @@
 //
 
 import UIKit
-import Kanna
 
 class RankingsTableViewController: UITableViewController {
     
+    let model = RankingsModel()
+    
     override func viewDidLoad() {
-        
+        super.viewDidLoad()
     }
     
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
