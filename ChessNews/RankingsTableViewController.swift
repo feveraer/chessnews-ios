@@ -12,15 +12,13 @@ class RankingsTableViewController: UITableViewController {
     
     let model = RankingsModel()
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-    }
-    
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+        // table view contains only 1 section
         return 1
     }
     
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        // number of rows = amount of players
         return model.players.count
     }
     
@@ -28,6 +26,7 @@ class RankingsTableViewController: UITableViewController {
         
         let cell = tableView.dequeueReusableCellWithIdentifier("playerCell", forIndexPath: indexPath) as! PlayerCell
         
+        // configure the cell
         let player = model.players[indexPath.row]
         
         cell.rankingLabel.text = "\(player.ranking)"
