@@ -9,7 +9,7 @@
 import Kanna
 
 class RankingsModel {
-    var rankings = [Player]()
+    var players = [Player]()
     let source = "http://www.2700chess.com"
     
     init() {
@@ -28,7 +28,7 @@ class RankingsModel {
                 let playerRank = player.css(".live_pos").text!.stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceAndNewlineCharacterSet())
                 let playerRating = player.css(".live_standard_rating").text!.stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceAndNewlineCharacterSet())
                 
-                rankings.append(Player(name: playerName, flag: playerFlag, ranking: Int(playerRank)!, rating: Float(playerRating)!))
+                players.append(Player(name: playerName, flag: playerFlag, ranking: Int(playerRank)!, rating: Float(playerRating)!))
             }
         }
     }
