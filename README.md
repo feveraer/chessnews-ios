@@ -3,6 +3,7 @@
 This iOS app allows you to follow the latest chess news by fetching RSS streams.
 
 ## Features
+<img src="https://raw.githubusercontent.com/feveraer/chessnews-ios/master/main.png" width=200 height=350/>
 <img src="https://raw.githubusercontent.com/feveraer/chessnews-ios/master/newsitems.png" width=200 height=350/> 
 <img src="https://raw.githubusercontent.com/feveraer/chessnews-ios/master/article.png" width=200 height=350/>
 <img src="https://raw.githubusercontent.com/feveraer/chessnews-ios/master/ratings.png" width=200 height=350/>
@@ -14,7 +15,7 @@ This iOS app allows you to follow the latest chess news by fetching RSS streams.
 * MVC and delegation patterns
 * Auto layout
 * Storyboards, segues, viewcontrollers like UITabBarController and UINavigationController
-* UITableView
+* UICollectionView, UITableView
 
 ## Used 3rd party frameworks
 * [KINWebBrowser](https://github.com/dfmuir/KINWebBrowser) to view a news article
