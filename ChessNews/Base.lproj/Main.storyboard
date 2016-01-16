@@ -115,7 +115,7 @@
             </objects>
             <point key="canvasLocation" x="2705" y="357"/>
         </scene>
-        <!--Rankings Table View Controller-->
+        <!--Live rankings - 2700chess.com-->
         <scene sceneID="Du9-OL-i8b">
             <objects>
                 <tableViewController id="2zt-Oe-wm6" customClass="RankingsTableViewController" customModule="ChessNews" customModuleProvider="target" sceneMemberID="viewController">
@@ -140,14 +140,11 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Player name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2SX-DX-scm">
-                                            <rect key="frame" x="81" y="14" width="153" height="21"/>
+                                            <rect key="frame" x="50" y="14" width="135" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zk7-Cz-vhb">
-                                            <rect key="frame" x="237" y="13" width="36" height="24"/>
-                                        </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="# 00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nxh-mg-lDG">
                                             <rect key="frame" x="8" y="14" width="39" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -155,11 +152,14 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Rating" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UFT-YF-1jL">
-                                            <rect key="frame" x="300" y="14" width="61" height="21"/>
+                                            <rect key="frame" x="246" y="14" width="61" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zk7-Cz-vhb">
+                                            <rect key="frame" x="193" y="16" width="27" height="18"/>
+                                        </imageView>
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
@@ -175,7 +175,7 @@
                             <outlet property="delegate" destination="2zt-Oe-wm6" id="1sW-8H-6WO"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="p4e-Cq-3cE"/>
+                    <navigationItem key="navigationItem" title="Live rankings - 2700chess.com" id="p4e-Cq-3cE"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yHL-O1-bA1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
