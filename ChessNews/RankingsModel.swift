@@ -8,7 +8,8 @@
 
 import Kanna
 
-class RankingsModel {
+//  This model contains all players featured on 2700chess.com, uses Kanna to scrape the website.
+struct RankingsModel {
     var players = [Player]()
     let source = "http://www.2700chess.com"
     
@@ -19,9 +20,10 @@ class RankingsModel {
             html = try NSString(contentsOfURL: url, encoding: NSUTF8StringEncoding)
         } catch{ print(error) }
         
+        // begin scraping
         if let doc = Kanna.HTML(html: html as String, encoding: NSUTF8StringEncoding) {
-            print(doc.title)
 
+            // each player is a row in a table with class "list"
             for player in doc.css(".list tr") {
                 let playerName = player.css(".name > span").text!
                 let playerFlag = player.css(".print-country").first!["src"]!
