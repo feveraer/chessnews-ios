@@ -2,7 +2,6 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="He1-5R-53e">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Feed Table View Controller-->
@@ -32,84 +31,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="n8o-D6-fqB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3478" y="357"/>
-        </scene>
-        <!--Chess news-->
-        <scene sceneID="gos-8e-Qos">
-            <objects>
-                <viewController id="81h-Ge-9in" customClass="MainViewController" customModule="ChessNews" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Z63-yp-gKw"/>
-                        <viewControllerLayoutGuide type="bottom" id="qE3-Vb-WrG"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="hbS-Nk-7ED">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="Wgw-yk-Di6">
-                                <rect key="frame" x="51" y="162" width="74" height="81"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lVC-ER-KE6">
-                                        <rect key="frame" x="0.0" y="0.0" width="74" height="51"/>
-                                        <state key="normal" title="Chessdom"/>
-                                        <connections>
-                                            <action selector="choose:" destination="81h-Ge-9in" eventType="touchUpInside" id="FoX-N2-X5V"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AiX-zL-1mp">
-                                        <rect key="frame" x="0.0" y="51" width="45" height="30"/>
-                                        <state key="normal" title="Reddit"/>
-                                        <connections>
-                                            <action selector="choose:" destination="81h-Ge-9in" eventType="touchUpInside" id="uSk-oN-VeN"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstItem="lVC-ER-KE6" firstAttribute="leading" secondItem="AiX-zL-1mp" secondAttribute="leading" id="3II-CG-DIO"/>
-                                    <constraint firstItem="AiX-zL-1mp" firstAttribute="leading" secondItem="Wgw-yk-Di6" secondAttribute="leading" id="CPx-4Z-MJy"/>
-                                    <constraint firstItem="AiX-zL-1mp" firstAttribute="top" secondItem="lVC-ER-KE6" secondAttribute="bottom" id="Dke-o2-sBG"/>
-                                    <constraint firstItem="lVC-ER-KE6" firstAttribute="leading" secondItem="Wgw-yk-Di6" secondAttribute="leading" id="JGc-3C-pH0"/>
-                                    <constraint firstItem="lVC-ER-KE6" firstAttribute="leading" secondItem="Wgw-yk-Di6" secondAttribute="leading" id="MEU-Wp-C2I"/>
-                                    <constraint firstAttribute="bottom" secondItem="AiX-zL-1mp" secondAttribute="bottom" id="NW4-gH-FZi"/>
-                                    <constraint firstAttribute="bottom" secondItem="AiX-zL-1mp" secondAttribute="bottom" id="Nf8-YL-Zqj"/>
-                                    <constraint firstItem="AiX-zL-1mp" firstAttribute="leading" secondItem="Wgw-yk-Di6" secondAttribute="leadingMargin" id="c8e-cw-cnX"/>
-                                    <constraint firstItem="lVC-ER-KE6" firstAttribute="leading" secondItem="Wgw-yk-Di6" secondAttribute="leading" id="caK-Wj-fLn"/>
-                                    <constraint firstItem="lVC-ER-KE6" firstAttribute="leading" secondItem="Wgw-yk-Di6" secondAttribute="leadingMargin" id="dDW-Nl-z1i"/>
-                                    <constraint firstItem="lVC-ER-KE6" firstAttribute="top" secondItem="Wgw-yk-Di6" secondAttribute="top" constant="21" id="eKg-2c-V48"/>
-                                    <constraint firstItem="AiX-zL-1mp" firstAttribute="leading" secondItem="Wgw-yk-Di6" secondAttribute="leading" id="gpd-z0-CO3"/>
-                                    <constraint firstItem="lVC-ER-KE6" firstAttribute="top" secondItem="Wgw-yk-Di6" secondAttribute="top" constant="21" id="h3i-wL-OSX"/>
-                                    <constraint firstItem="AiX-zL-1mp" firstAttribute="top" secondItem="Wgw-yk-Di6" secondAttribute="top" constant="51" id="hQi-cY-9NA"/>
-                                    <constraint firstItem="lVC-ER-KE6" firstAttribute="leading" secondItem="Wgw-yk-Di6" secondAttribute="leading" id="klA-So-TFD"/>
-                                    <constraint firstAttribute="bottom" secondItem="AiX-zL-1mp" secondAttribute="bottom" id="nVP-nF-hJ9"/>
-                                    <constraint firstItem="AiX-zL-1mp" firstAttribute="bottom" secondItem="Wgw-yk-Di6" secondAttribute="bottomMargin" id="ncK-pa-LbX"/>
-                                    <constraint firstItem="AiX-zL-1mp" firstAttribute="leading" secondItem="Wgw-yk-Di6" secondAttribute="leading" id="pb4-Tf-4RB"/>
-                                    <constraint firstItem="AiX-zL-1mp" firstAttribute="leading" secondItem="Wgw-yk-Di6" secondAttribute="leading" id="sWx-ad-2Xg"/>
-                                </constraints>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="eKg-2c-V48"/>
-                                        <exclude reference="h3i-wL-OSX"/>
-                                    </mask>
-                                </variation>
-                            </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Chess news sources" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dzq-h0-9a1">
-                                <rect key="frame" x="51" y="110" width="268" height="44"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="Wgw-yk-Di6" firstAttribute="top" secondItem="Z63-yp-gKw" secondAttribute="bottom" constant="98" id="4TN-Pb-aGL"/>
-                            <constraint firstItem="Wgw-yk-Di6" firstAttribute="leading" secondItem="hbS-Nk-7ED" secondAttribute="leadingMargin" constant="31" id="fwb-JS-jpv"/>
-                        </constraints>
-                    </view>
-                    <navigationItem key="navigationItem" title="Chess news" id="295-Qn-YgY"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="kxF-bA-Hal" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2705" y="357"/>
+            <point key="canvasLocation" x="3374" y="357"/>
         </scene>
         <!--Chess news-->
         <scene sceneID="WuS-d8-ntM">
@@ -132,6 +54,9 @@
                                     <rect key="frame" x="0.0" y="0.0" width="250" height="150"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="k3Q-Xh-BP3">
+                                            <rect key="frame" x="0.0" y="0.0" width="250" height="150"/>
+                                        </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NyF-0t-zxx">
                                             <rect key="frame" x="0.0" y="120" width="250" height="30"/>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -139,9 +64,6 @@
                                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="k3Q-Xh-BP3">
-                                            <rect key="frame" x="0.0" y="0.0" width="250" height="150"/>
-                                        </imageView>
                                     </subviews>
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </view>
@@ -163,7 +85,7 @@
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="402-on-0Ql" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2968" y="1073"/>
+            <point key="canvasLocation" x="2653" y="357"/>
         </scene>
         <!--Live rankings - 2700chess.com-->
         <scene sceneID="Du9-OL-i8b">
