@@ -3,9 +3,9 @@
 This iOS app allows you to follow the latest chess news by fetching RSS streams.
 
 ## Features
-* ![News items](https://raw.githubusercontent.com/feveraer/chessnews-ios/master/newsitems.png)
-* ![Example of an article](https://raw.githubusercontent.com/feveraer/chessnews-ios/master/article.png)
-* ![Live ratings](https://raw.githubusercontent.com/feveraer/chessnews-ios/master/ratings.png)
+<img src="https://raw.githubusercontent.com/feveraer/chessnews-ios/master/newsitems.png" width=200 height=350/> 
+<img src="https://raw.githubusercontent.com/feveraer/chessnews-ios/master/article.png" width=200 height=350/>
+<img src="https://raw.githubusercontent.com/feveraer/chessnews-ios/master/ratings.png" width=200 height=350/>
 
 ## Used frameworks
 * [KINWebBrowser](https://github.com/dfmuir/KINWebBrowser)
