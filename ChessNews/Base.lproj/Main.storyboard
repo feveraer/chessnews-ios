@@ -200,11 +200,11 @@
             </objects>
             <point key="canvasLocation" x="1081" y="357"/>
         </scene>
-        <!--Item-->
+        <!--News-->
         <scene sceneID="Sg4-md-TGy">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Kzy-Ra-tOn" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="dpl-kI-WDC"/>
+                    <tabBarItem key="tabBarItem" title="News" image="rss-7.png" id="dpl-kI-WDC"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="29v-CX-SgH">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -219,11 +219,11 @@
             </objects>
             <point key="canvasLocation" x="1893" y="357"/>
         </scene>
-        <!--Item-->
+        <!--Rankings-->
         <scene sceneID="4xm-OF-HIK">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Hup-eB-3S5" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="PgK-9H-Dtb"/>
+                    <tabBarItem key="tabBarItem" title="Rankings" image="crown-7.png" id="PgK-9H-Dtb"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="feE-v8-bDA">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -236,7 +236,11 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Va-3f-XUA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1382" y="1105"/>
+            <point key="canvasLocation" x="1383" y="1105"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="crown-7.png" width="30" height="30"/>
+        <image name="rss-7.png" width="30" height="30"/>
+    </resources>
 </document>
