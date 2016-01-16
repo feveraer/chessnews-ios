@@ -42,6 +42,7 @@
 		C610C7631C18128A00FCD716 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C610C7621C18128A00FCD716 /* MainViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		C671494A1C497B6D0064E617 /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67149491C497B6D0064E617 /* Feed.swift */; settings = {ASSET_TAGS = (); }; };
 		C671494E1C49975E0064E617 /* FeedsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C671494D1C49975E0064E617 /* FeedsModel.swift */; settings = {ASSET_TAGS = (); }; };
+		C67149501C49C84B0064E617 /* RankingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C671494F1C49C84B0064E617 /* RankingsTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		C6725E381BFB75C900E4D3B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6725E371BFB75C900E4D3B4 /* AppDelegate.swift */; };
 		C6725E3D1BFB75C900E4D3B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6725E3B1BFB75C900E4D3B4 /* Main.storyboard */; };
 		C6725E401BFB75C900E4D3B4 /* ChessNews.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C6725E3E1BFB75C900E4D3B4 /* ChessNews.xcdatamodeld */; };
@@ -115,6 +116,7 @@
 		C610C7621C18128A00FCD716 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		C67149491C497B6D0064E617 /* Feed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
 		C671494D1C49975E0064E617 /* FeedsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedsModel.swift; sourceTree = "<group>"; };
+		C671494F1C49C84B0064E617 /* RankingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RankingsTableViewController.swift; sourceTree = "<group>"; };
 		C6725E341BFB75C900E4D3B4 /* ChessNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChessNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6725E371BFB75C900E4D3B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C6725E3C1BFB75C900E4D3B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -221,6 +223,7 @@
 			children = (
 				C610C7621C18128A00FCD716 /* MainViewController.swift */,
 				C610C6F81C17C2D000FCD716 /* FeedTableViewController.swift */,
+				C671494F1C49C84B0064E617 /* RankingsTableViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -389,6 +392,7 @@
 				C610C7561C17C93400FCD716 /* NSDate+InternetDateTime.m in Sources */,
 				C610C7521C17C93400FCD716 /* KINWebBrowserViewController.m in Sources */,
 				C610C73B1C17C93400FCD716 /* ARChromeActivity.m in Sources */,
+				C67149501C49C84B0064E617 /* RankingsTableViewController.swift in Sources */,
 				C610C7571C17C93400FCD716 /* NSString+HTML.m in Sources */,
 				C610C74B1C17C93400FCD716 /* GTMNSString+HTML.m in Sources */,
 				C610C7581C17C93400FCD716 /* NSString+XMLEntities.m in Sources */,
