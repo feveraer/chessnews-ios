@@ -9,36 +9,6 @@
 /* Begin PBXBuildFile section */
 		21FEA0A5CB3CBB2638EAAF54 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1F17819488F9E60372A96D0 /* Pods.framework */; };
 		C610C6F91C17C2D000FCD716 /* FeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C610C6F81C17C2D000FCD716 /* FeedTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		C610C73B1C17C93400FCD716 /* ARChromeActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = C610C6FC1C17C93400FCD716 /* ARChromeActivity.m */; settings = {ASSET_TAGS = (); }; };
-		C610C73C1C17C93400FCD716 /* ARChromeActivity.png in Resources */ = {isa = PBXBuildFile; fileRef = C610C6FD1C17C93400FCD716 /* ARChromeActivity.png */; settings = {ASSET_TAGS = (); }; };
-		C610C73D1C17C93400FCD716 /* ARChromeActivity@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C610C6FE1C17C93400FCD716 /* ARChromeActivity@2x.png */; settings = {ASSET_TAGS = (); }; };
-		C610C73E1C17C93400FCD716 /* ARChromeActivity@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = C610C6FF1C17C93400FCD716 /* ARChromeActivity@2x~ipad.png */; settings = {ASSET_TAGS = (); }; };
-		C610C73F1C17C93400FCD716 /* ARChromeActivity@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C610C7001C17C93400FCD716 /* ARChromeActivity@3x.png */; settings = {ASSET_TAGS = (); }; };
-		C610C7401C17C93400FCD716 /* ARChromeActivity@3x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = C610C7011C17C93400FCD716 /* ARChromeActivity@3x~ipad.png */; settings = {ASSET_TAGS = (); }; };
-		C610C7411C17C93400FCD716 /* ARChromeActivity~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = C610C7021C17C93400FCD716 /* ARChromeActivity~ipad.png */; settings = {ASSET_TAGS = (); }; };
-		C610C7421C17C93400FCD716 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = C610C7041C17C93400FCD716 /* .gitkeep */; settings = {ASSET_TAGS = (); }; };
-		C610C7431C17C93400FCD716 /* TUSafariActivity.strings in Resources */ = {isa = PBXBuildFile; fileRef = C610C7051C17C93400FCD716 /* TUSafariActivity.strings */; settings = {ASSET_TAGS = (); }; };
-		C610C7441C17C93400FCD716 /* safari.png in Resources */ = {isa = PBXBuildFile; fileRef = C610C7151C17C93400FCD716 /* safari.png */; settings = {ASSET_TAGS = (); }; };
-		C610C7451C17C93400FCD716 /* safari@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C610C7161C17C93400FCD716 /* safari@2x.png */; settings = {ASSET_TAGS = (); }; };
-		C610C7461C17C93400FCD716 /* safari@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C610C7171C17C93400FCD716 /* safari@3x.png */; settings = {ASSET_TAGS = (); }; };
-		C610C7471C17C93400FCD716 /* safari~iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = C610C7181C17C93400FCD716 /* safari~iPad.png */; settings = {ASSET_TAGS = (); }; };
-		C610C7481C17C93400FCD716 /* safari~iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C610C7191C17C93400FCD716 /* safari~iPad@2x.png */; settings = {ASSET_TAGS = (); }; };
-		C610C7491C17C93400FCD716 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = C610C71F1C17C93400FCD716 /* .gitkeep */; settings = {ASSET_TAGS = (); }; };
-		C610C74A1C17C93400FCD716 /* TUSafariActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = C610C7211C17C93400FCD716 /* TUSafariActivity.m */; settings = {ASSET_TAGS = (); }; };
-		C610C74B1C17C93400FCD716 /* GTMNSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = C610C7231C17C93400FCD716 /* GTMNSString+HTML.m */; settings = {ASSET_TAGS = (); }; };
-		C610C74C1C17C93400FCD716 /* backbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = C610C7261C17C93400FCD716 /* backbutton.png */; settings = {ASSET_TAGS = (); }; };
-		C610C74D1C17C93400FCD716 /* backbutton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C610C7271C17C93400FCD716 /* backbutton@2x.png */; settings = {ASSET_TAGS = (); }; };
-		C610C74E1C17C93400FCD716 /* backbutton@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C610C7281C17C93400FCD716 /* backbutton@3x.png */; settings = {ASSET_TAGS = (); }; };
-		C610C74F1C17C93400FCD716 /* forwardbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = C610C7291C17C93400FCD716 /* forwardbutton.png */; settings = {ASSET_TAGS = (); }; };
-		C610C7501C17C93400FCD716 /* forwardbutton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C610C72A1C17C93400FCD716 /* forwardbutton@2x.png */; settings = {ASSET_TAGS = (); }; };
-		C610C7511C17C93400FCD716 /* forwardbutton@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C610C72B1C17C93400FCD716 /* forwardbutton@3x.png */; settings = {ASSET_TAGS = (); }; };
-		C610C7521C17C93400FCD716 /* KINWebBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C610C72D1C17C93400FCD716 /* KINWebBrowserViewController.m */; settings = {ASSET_TAGS = (); }; };
-		C610C7531C17C93400FCD716 /* MWFeedInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C610C72F1C17C93400FCD716 /* MWFeedInfo.m */; settings = {ASSET_TAGS = (); }; };
-		C610C7541C17C93400FCD716 /* MWFeedItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C610C7311C17C93400FCD716 /* MWFeedItem.m */; settings = {ASSET_TAGS = (); }; };
-		C610C7551C17C93400FCD716 /* MWFeedParser.m in Sources */ = {isa = PBXBuildFile; fileRef = C610C7331C17C93400FCD716 /* MWFeedParser.m */; settings = {ASSET_TAGS = (); }; };
-		C610C7561C17C93400FCD716 /* NSDate+InternetDateTime.m in Sources */ = {isa = PBXBuildFile; fileRef = C610C7361C17C93400FCD716 /* NSDate+InternetDateTime.m */; settings = {ASSET_TAGS = (); }; };
-		C610C7571C17C93400FCD716 /* NSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = C610C7381C17C93400FCD716 /* NSString+HTML.m */; settings = {ASSET_TAGS = (); }; };
-		C610C7581C17C93400FCD716 /* NSString+XMLEntities.m in Sources */ = {isa = PBXBuildFile; fileRef = C610C73A1C17C93400FCD716 /* NSString+XMLEntities.m */; settings = {ASSET_TAGS = (); }; };
 		C610C7611C17CD4200FCD716 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C610C7601C17CD4200FCD716 /* CoreData.framework */; };
 		C610C7631C18128A00FCD716 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C610C7621C18128A00FCD716 /* MainViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		C671494A1C497B6D0064E617 /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67149491C497B6D0064E617 /* Feed.swift */; settings = {ASSET_TAGS = (); }; };
@@ -61,66 +31,6 @@
 		B1F17819488F9E60372A96D0 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C01CB452E6CE59824704E1B4 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		C610C6F81C17C2D000FCD716 /* FeedTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedTableViewController.swift; sourceTree = "<group>"; };
-		C610C6FB1C17C93400FCD716 /* ARChromeActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARChromeActivity.h; sourceTree = "<group>"; };
-		C610C6FC1C17C93400FCD716 /* ARChromeActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARChromeActivity.m; sourceTree = "<group>"; };
-		C610C6FD1C17C93400FCD716 /* ARChromeActivity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ARChromeActivity.png; sourceTree = "<group>"; };
-		C610C6FE1C17C93400FCD716 /* ARChromeActivity@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ARChromeActivity@2x.png"; sourceTree = "<group>"; };
-		C610C6FF1C17C93400FCD716 /* ARChromeActivity@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ARChromeActivity@2x~ipad.png"; sourceTree = "<group>"; };
-		C610C7001C17C93400FCD716 /* ARChromeActivity@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ARChromeActivity@3x.png"; sourceTree = "<group>"; };
-		C610C7011C17C93400FCD716 /* ARChromeActivity@3x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ARChromeActivity@3x~ipad.png"; sourceTree = "<group>"; };
-		C610C7021C17C93400FCD716 /* ARChromeActivity~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ARChromeActivity~ipad.png"; sourceTree = "<group>"; };
-		C610C7041C17C93400FCD716 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		C610C7061C17C93400FCD716 /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/TUSafariActivity.strings; sourceTree = "<group>"; };
-		C610C7071C17C93400FCD716 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/TUSafariActivity.strings; sourceTree = "<group>"; };
-		C610C7081C17C93400FCD716 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/TUSafariActivity.strings; sourceTree = "<group>"; };
-		C610C7091C17C93400FCD716 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/TUSafariActivity.strings; sourceTree = "<group>"; };
-		C610C70A1C17C93400FCD716 /* eu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = eu; path = eu.lproj/TUSafariActivity.strings; sourceTree = "<group>"; };
-		C610C70B1C17C93400FCD716 /* fi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fi; path = fi.lproj/TUSafariActivity.strings; sourceTree = "<group>"; };
-		C610C70C1C17C93400FCD716 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/TUSafariActivity.strings; sourceTree = "<group>"; };
-		C610C70D1C17C93400FCD716 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/TUSafariActivity.strings; sourceTree = "<group>"; };
-		C610C70E1C17C93400FCD716 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/TUSafariActivity.strings; sourceTree = "<group>"; };
-		C610C70F1C17C93400FCD716 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/TUSafariActivity.strings; sourceTree = "<group>"; };
-		C610C7101C17C93400FCD716 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/TUSafariActivity.strings; sourceTree = "<group>"; };
-		C610C7111C17C93400FCD716 /* no */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = no; path = no.lproj/TUSafariActivity.strings; sourceTree = "<group>"; };
-		C610C7121C17C93400FCD716 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/TUSafariActivity.strings; sourceTree = "<group>"; };
-		C610C7131C17C93400FCD716 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/TUSafariActivity.strings; sourceTree = "<group>"; };
-		C610C7141C17C93400FCD716 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/TUSafariActivity.strings; sourceTree = "<group>"; };
-		C610C7151C17C93400FCD716 /* safari.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = safari.png; sourceTree = "<group>"; };
-		C610C7161C17C93400FCD716 /* safari@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "safari@2x.png"; sourceTree = "<group>"; };
-		C610C7171C17C93400FCD716 /* safari@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "safari@3x.png"; sourceTree = "<group>"; };
-		C610C7181C17C93400FCD716 /* safari~iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "safari~iPad.png"; sourceTree = "<group>"; };
-		C610C7191C17C93400FCD716 /* safari~iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "safari~iPad@2x.png"; sourceTree = "<group>"; };
-		C610C71A1C17C93400FCD716 /* sk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sk; path = sk.lproj/TUSafariActivity.strings; sourceTree = "<group>"; };
-		C610C71B1C17C93400FCD716 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/TUSafariActivity.strings; sourceTree = "<group>"; };
-		C610C71C1C17C93400FCD716 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/TUSafariActivity.strings; sourceTree = "<group>"; };
-		C610C71D1C17C93400FCD716 /* zh_CN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh_CN; path = zh_CN.lproj/TUSafariActivity.strings; sourceTree = "<group>"; };
-		C610C71F1C17C93400FCD716 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		C610C7201C17C93400FCD716 /* TUSafariActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TUSafariActivity.h; sourceTree = "<group>"; };
-		C610C7211C17C93400FCD716 /* TUSafariActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TUSafariActivity.m; sourceTree = "<group>"; };
-		C610C7221C17C93400FCD716 /* GTMNSString+HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GTMNSString+HTML.h"; sourceTree = "<group>"; };
-		C610C7231C17C93400FCD716 /* GTMNSString+HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSString+HTML.m"; sourceTree = "<group>"; };
-		C610C7261C17C93400FCD716 /* backbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backbutton.png; sourceTree = "<group>"; };
-		C610C7271C17C93400FCD716 /* backbutton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backbutton@2x.png"; sourceTree = "<group>"; };
-		C610C7281C17C93400FCD716 /* backbutton@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backbutton@3x.png"; sourceTree = "<group>"; };
-		C610C7291C17C93400FCD716 /* forwardbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forwardbutton.png; sourceTree = "<group>"; };
-		C610C72A1C17C93400FCD716 /* forwardbutton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "forwardbutton@2x.png"; sourceTree = "<group>"; };
-		C610C72B1C17C93400FCD716 /* forwardbutton@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "forwardbutton@3x.png"; sourceTree = "<group>"; };
-		C610C72C1C17C93400FCD716 /* KINWebBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KINWebBrowserViewController.h; sourceTree = "<group>"; };
-		C610C72D1C17C93400FCD716 /* KINWebBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KINWebBrowserViewController.m; sourceTree = "<group>"; };
-		C610C72E1C17C93400FCD716 /* MWFeedInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWFeedInfo.h; sourceTree = "<group>"; };
-		C610C72F1C17C93400FCD716 /* MWFeedInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWFeedInfo.m; sourceTree = "<group>"; };
-		C610C7301C17C93400FCD716 /* MWFeedItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWFeedItem.h; sourceTree = "<group>"; };
-		C610C7311C17C93400FCD716 /* MWFeedItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWFeedItem.m; sourceTree = "<group>"; };
-		C610C7321C17C93400FCD716 /* MWFeedParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWFeedParser.h; sourceTree = "<group>"; };
-		C610C7331C17C93400FCD716 /* MWFeedParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWFeedParser.m; sourceTree = "<group>"; };
-		C610C7341C17C93400FCD716 /* MWFeedParser_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWFeedParser_Private.h; sourceTree = "<group>"; };
-		C610C7351C17C93400FCD716 /* NSDate+InternetDateTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+InternetDateTime.h"; sourceTree = "<group>"; };
-		C610C7361C17C93400FCD716 /* NSDate+InternetDateTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+InternetDateTime.m"; sourceTree = "<group>"; };
-		C610C7371C17C93400FCD716 /* NSString+HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HTML.h"; sourceTree = "<group>"; };
-		C610C7381C17C93400FCD716 /* NSString+HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HTML.m"; sourceTree = "<group>"; };
-		C610C7391C17C93400FCD716 /* NSString+XMLEntities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+XMLEntities.h"; sourceTree = "<group>"; };
-		C610C73A1C17C93400FCD716 /* NSString+XMLEntities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XMLEntities.m"; sourceTree = "<group>"; };
-		C610C75F1C17CADD00FCD716 /* Bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bridge.h; sourceTree = "<group>"; };
 		C610C7601C17CD4200FCD716 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		C610C7621C18128A00FCD716 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		C67149491C497B6D0064E617 /* Feed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
@@ -160,86 +70,6 @@
 				C01CB452E6CE59824704E1B4 /* Pods.release.xcconfig */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		C610C6FA1C17C93400FCD716 /* lib */ = {
-			isa = PBXGroup;
-			children = (
-				C610C6FB1C17C93400FCD716 /* ARChromeActivity.h */,
-				C610C6FC1C17C93400FCD716 /* ARChromeActivity.m */,
-				C610C6FD1C17C93400FCD716 /* ARChromeActivity.png */,
-				C610C6FE1C17C93400FCD716 /* ARChromeActivity@2x.png */,
-				C610C6FF1C17C93400FCD716 /* ARChromeActivity@2x~ipad.png */,
-				C610C7001C17C93400FCD716 /* ARChromeActivity@3x.png */,
-				C610C7011C17C93400FCD716 /* ARChromeActivity@3x~ipad.png */,
-				C610C7021C17C93400FCD716 /* ARChromeActivity~ipad.png */,
-				C610C7031C17C93400FCD716 /* Assets */,
-				C610C71E1C17C93400FCD716 /* Classes */,
-				C610C7221C17C93400FCD716 /* GTMNSString+HTML.h */,
-				C610C7231C17C93400FCD716 /* GTMNSString+HTML.m */,
-				C610C7241C17C93400FCD716 /* KINWebBrowser */,
-				C610C72E1C17C93400FCD716 /* MWFeedInfo.h */,
-				C610C72F1C17C93400FCD716 /* MWFeedInfo.m */,
-				C610C7301C17C93400FCD716 /* MWFeedItem.h */,
-				C610C7311C17C93400FCD716 /* MWFeedItem.m */,
-				C610C7321C17C93400FCD716 /* MWFeedParser.h */,
-				C610C7331C17C93400FCD716 /* MWFeedParser.m */,
-				C610C7341C17C93400FCD716 /* MWFeedParser_Private.h */,
-				C610C7351C17C93400FCD716 /* NSDate+InternetDateTime.h */,
-				C610C7361C17C93400FCD716 /* NSDate+InternetDateTime.m */,
-				C610C7371C17C93400FCD716 /* NSString+HTML.h */,
-				C610C7381C17C93400FCD716 /* NSString+HTML.m */,
-				C610C7391C17C93400FCD716 /* NSString+XMLEntities.h */,
-				C610C73A1C17C93400FCD716 /* NSString+XMLEntities.m */,
-			);
-			path = lib;
-			sourceTree = "<group>";
-		};
-		C610C7031C17C93400FCD716 /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				C610C7041C17C93400FCD716 /* .gitkeep */,
-				C610C7051C17C93400FCD716 /* TUSafariActivity.strings */,
-				C610C7151C17C93400FCD716 /* safari.png */,
-				C610C7161C17C93400FCD716 /* safari@2x.png */,
-				C610C7171C17C93400FCD716 /* safari@3x.png */,
-				C610C7181C17C93400FCD716 /* safari~iPad.png */,
-				C610C7191C17C93400FCD716 /* safari~iPad@2x.png */,
-			);
-			path = Assets;
-			sourceTree = "<group>";
-		};
-		C610C71E1C17C93400FCD716 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				C610C71F1C17C93400FCD716 /* .gitkeep */,
-				C610C7201C17C93400FCD716 /* TUSafariActivity.h */,
-				C610C7211C17C93400FCD716 /* TUSafariActivity.m */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		C610C7241C17C93400FCD716 /* KINWebBrowser */ = {
-			isa = PBXGroup;
-			children = (
-				C610C7251C17C93400FCD716 /* Assets */,
-				C610C72C1C17C93400FCD716 /* KINWebBrowserViewController.h */,
-				C610C72D1C17C93400FCD716 /* KINWebBrowserViewController.m */,
-			);
-			path = KINWebBrowser;
-			sourceTree = "<group>";
-		};
-		C610C7251C17C93400FCD716 /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				C610C7261C17C93400FCD716 /* backbutton.png */,
-				C610C7271C17C93400FCD716 /* backbutton@2x.png */,
-				C610C7281C17C93400FCD716 /* backbutton@3x.png */,
-				C610C7291C17C93400FCD716 /* forwardbutton.png */,
-				C610C72A1C17C93400FCD716 /* forwardbutton@2x.png */,
-				C610C72B1C17C93400FCD716 /* forwardbutton@3x.png */,
-			);
-			path = Assets;
 			sourceTree = "<group>";
 		};
 		C610C7641C1812B700FCD716 /* Controllers */ = {
@@ -288,9 +118,7 @@
 				C6E67C841C4A037C003CD91F /* Images */,
 				C67149481C497B4C0064E617 /* Model */,
 				C610C7641C1812B700FCD716 /* Controllers */,
-				C610C6FA1C17C93400FCD716 /* lib */,
 				C6725E371BFB75C900E4D3B4 /* AppDelegate.swift */,
-				C610C75F1C17CADD00FCD716 /* Bridge.h */,
 				C6725E3B1BFB75C900E4D3B4 /* Main.storyboard */,
 				C6725E411BFB75C900E4D3B4 /* Assets.xcassets */,
 				C6725E431BFB75C900E4D3B4 /* LaunchScreen.storyboard */,
@@ -396,31 +224,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C610C74D1C17C93400FCD716 /* backbutton@2x.png in Resources */,
-				C610C7431C17C93400FCD716 /* TUSafariActivity.strings in Resources */,
 				C6E67C881C4A042E003CD91F /* rss-7.png in Resources */,
-				C610C7481C17C93400FCD716 /* safari~iPad@2x.png in Resources */,
-				C610C73F1C17C93400FCD716 /* ARChromeActivity@3x.png in Resources */,
-				C610C7501C17C93400FCD716 /* forwardbutton@2x.png in Resources */,
-				C610C74F1C17C93400FCD716 /* forwardbutton.png in Resources */,
 				C6725E451BFB75C900E4D3B4 /* LaunchScreen.storyboard in Resources */,
-				C610C7471C17C93400FCD716 /* safari~iPad.png in Resources */,
-				C610C7461C17C93400FCD716 /* safari@3x.png in Resources */,
-				C610C74C1C17C93400FCD716 /* backbutton.png in Resources */,
-				C610C73C1C17C93400FCD716 /* ARChromeActivity.png in Resources */,
 				C6E67C861C4A03BF003CD91F /* crown-7.png in Resources */,
-				C610C7411C17C93400FCD716 /* ARChromeActivity~ipad.png in Resources */,
 				C6725E421BFB75C900E4D3B4 /* Assets.xcassets in Resources */,
-				C610C7401C17C93400FCD716 /* ARChromeActivity@3x~ipad.png in Resources */,
-				C610C73E1C17C93400FCD716 /* ARChromeActivity@2x~ipad.png in Resources */,
-				C610C7491C17C93400FCD716 /* .gitkeep in Resources */,
-				C610C7511C17C93400FCD716 /* forwardbutton@3x.png in Resources */,
-				C610C7421C17C93400FCD716 /* .gitkeep in Resources */,
-				C610C73D1C17C93400FCD716 /* ARChromeActivity@2x.png in Resources */,
-				C610C74E1C17C93400FCD716 /* backbutton@3x.png in Resources */,
 				C6725E3D1BFB75C900E4D3B4 /* Main.storyboard in Resources */,
-				C610C7451C17C93400FCD716 /* safari@2x.png in Resources */,
-				C610C7441C17C93400FCD716 /* safari.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,56 +289,20 @@
 			files = (
 				C6725E401BFB75C900E4D3B4 /* ChessNews.xcdatamodeld in Sources */,
 				C671494A1C497B6D0064E617 /* Feed.swift in Sources */,
-				C610C74A1C17C93400FCD716 /* TUSafariActivity.m in Sources */,
 				C671494E1C49975E0064E617 /* FeedsModel.swift in Sources */,
-				C610C7551C17C93400FCD716 /* MWFeedParser.m in Sources */,
 				C610C6F91C17C2D000FCD716 /* FeedTableViewController.swift in Sources */,
-				C610C7541C17C93400FCD716 /* MWFeedItem.m in Sources */,
-				C610C7531C17C93400FCD716 /* MWFeedInfo.m in Sources */,
 				C6725E381BFB75C900E4D3B4 /* AppDelegate.swift in Sources */,
 				C610C7631C18128A00FCD716 /* MainViewController.swift in Sources */,
-				C610C7561C17C93400FCD716 /* NSDate+InternetDateTime.m in Sources */,
-				C610C7521C17C93400FCD716 /* KINWebBrowserViewController.m in Sources */,
 				C6F12D991C49D64300EE67F6 /* PlayerCell.swift in Sources */,
-				C610C73B1C17C93400FCD716 /* ARChromeActivity.m in Sources */,
 				C67149501C49C84B0064E617 /* RankingsTableViewController.swift in Sources */,
-				C610C7571C17C93400FCD716 /* NSString+HTML.m in Sources */,
 				C6F12D9F1C49F22300EE67F6 /* RankingsModel.swift in Sources */,
 				C6F12D9D1C49F1B800EE67F6 /* Player.swift in Sources */,
-				C610C74B1C17C93400FCD716 /* GTMNSString+HTML.m in Sources */,
-				C610C7581C17C93400FCD716 /* NSString+XMLEntities.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C610C7051C17C93400FCD716 /* TUSafariActivity.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C610C7061C17C93400FCD716 /* cs */,
-				C610C7071C17C93400FCD716 /* de */,
-				C610C7081C17C93400FCD716 /* en */,
-				C610C7091C17C93400FCD716 /* es */,
-				C610C70A1C17C93400FCD716 /* eu */,
-				C610C70B1C17C93400FCD716 /* fi */,
-				C610C70C1C17C93400FCD716 /* fr */,
-				C610C70D1C17C93400FCD716 /* it */,
-				C610C70E1C17C93400FCD716 /* ja */,
-				C610C70F1C17C93400FCD716 /* ko */,
-				C610C7101C17C93400FCD716 /* nl */,
-				C610C7111C17C93400FCD716 /* no */,
-				C610C7121C17C93400FCD716 /* pl */,
-				C610C7131C17C93400FCD716 /* pt */,
-				C610C7141C17C93400FCD716 /* ru */,
-				C610C71A1C17C93400FCD716 /* sk */,
-				C610C71B1C17C93400FCD716 /* sv */,
-				C610C71C1C17C93400FCD716 /* vi */,
-				C610C71D1C17C93400FCD716 /* zh_CN */,
-			);
-			name = TUSafariActivity.strings;
-			sourceTree = "<group>";
-		};
 		C6725E3B1BFB75C900E4D3B4 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -642,7 +414,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = feveraer.ChessNews;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = ChessNews/Bridge.h;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
 			name = Debug;
 		};
@@ -655,7 +427,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = feveraer.ChessNews;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = ChessNews/Bridge.h;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
 			name = Release;
 		};

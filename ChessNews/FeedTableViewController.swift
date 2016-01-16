@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import MWFeedParser
+import KINWebBrowser
 
 class FeedTableViewController: UITableViewController, MWFeedParserDelegate {
 
