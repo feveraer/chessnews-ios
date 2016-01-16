@@ -48,6 +48,7 @@
 		C6725E401BFB75C900E4D3B4 /* ChessNews.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C6725E3E1BFB75C900E4D3B4 /* ChessNews.xcdatamodeld */; };
 		C6725E421BFB75C900E4D3B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6725E411BFB75C900E4D3B4 /* Assets.xcassets */; };
 		C6725E451BFB75C900E4D3B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6725E431BFB75C900E4D3B4 /* LaunchScreen.storyboard */; };
+		C6F12D991C49D64300EE67F6 /* PlayerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F12D981C49D64300EE67F6 /* PlayerCell.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -124,6 +125,7 @@
 		C6725E411BFB75C900E4D3B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C6725E441BFB75C900E4D3B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C6725E461BFB75C900E4D3B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6F12D981C49D64300EE67F6 /* PlayerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -267,6 +269,7 @@
 				C6725E431BFB75C900E4D3B4 /* LaunchScreen.storyboard */,
 				C6725E461BFB75C900E4D3B4 /* Info.plist */,
 				C6725E3E1BFB75C900E4D3B4 /* ChessNews.xcdatamodeld */,
+				C6F12D981C49D64300EE67F6 /* PlayerCell.swift */,
 			);
 			path = ChessNews;
 			sourceTree = "<group>";
@@ -391,6 +394,7 @@
 				C610C7631C18128A00FCD716 /* MainViewController.swift in Sources */,
 				C610C7561C17C93400FCD716 /* NSDate+InternetDateTime.m in Sources */,
 				C610C7521C17C93400FCD716 /* KINWebBrowserViewController.m in Sources */,
+				C6F12D991C49D64300EE67F6 /* PlayerCell.swift in Sources */,
 				C610C73B1C17C93400FCD716 /* ARChromeActivity.m in Sources */,
 				C67149501C49C84B0064E617 /* RankingsTableViewController.swift in Sources */,
 				C610C7571C17C93400FCD716 /* NSString+HTML.m in Sources */,
