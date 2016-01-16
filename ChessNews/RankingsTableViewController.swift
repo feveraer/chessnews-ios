@@ -11,5 +11,11 @@ import Kanna
 
 class RankingsTableViewController: UITableViewController {
     
+    override func viewDidLoad() {
+        
+    }
     
+    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+        return 1
+    }
 }
