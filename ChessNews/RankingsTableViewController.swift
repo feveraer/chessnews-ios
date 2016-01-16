@@ -34,10 +34,9 @@ class RankingsTableViewController: UITableViewController {
         cell.nameLabel.text = player.name
         cell.ratingLabel.text = "\(player.rating)"
         
-        if let flagImagePath = NSBundle.mainBundle().pathForResource(model.source + player.flag, ofType: "gif"), image = UIImage(contentsOfFile: flagImagePath) {
-            cell.flagView.contentMode = .ScaleAspectFit
-            cell.flagView.image = image
-        }
+        let flagUrl = NSURL(string: model.source + player.flag)
+        let data = NSData(contentsOfURL: flagUrl!)
+        cell.flagView.image = UIImage(data: data!)
         
         return cell
     }
