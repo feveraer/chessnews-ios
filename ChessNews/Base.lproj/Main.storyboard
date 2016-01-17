@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="He1-5R-53e">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Feed Table View Controller-->
@@ -103,28 +104,42 @@
                                     <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Player name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2SX-DX-scm">
-                                            <rect key="frame" x="50" y="14" width="135" height="21"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Player name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2SX-DX-scm">
+                                            <rect key="frame" x="103" y="11" width="94" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="# 00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nxh-mg-lDG">
-                                            <rect key="frame" x="8" y="14" width="39" height="21"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="# 00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nxh-mg-lDG">
+                                            <rect key="frame" x="16" y="11" width="36" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Rating" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UFT-YF-1jL">
-                                            <rect key="frame" x="246" y="14" width="61" height="21"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rating" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UFT-YF-1jL">
+                                            <rect key="frame" x="493" y="11" width="49" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zk7-Cz-vhb">
-                                            <rect key="frame" x="193" y="16" width="27" height="18"/>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zk7-Cz-vhb">
+                                            <rect key="frame" x="68" y="13" width="27" height="18"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="18" id="1hx-zL-1s4"/>
+                                                <constraint firstAttribute="width" constant="27" id="rY1-n6-6xH"/>
+                                            </constraints>
                                         </imageView>
                                     </subviews>
+                                    <constraints>
+                                        <constraint firstItem="2SX-DX-scm" firstAttribute="leading" secondItem="zk7-Cz-vhb" secondAttribute="trailing" constant="8" symbolic="YES" id="5ae-g8-9k0"/>
+                                        <constraint firstItem="zk7-Cz-vhb" firstAttribute="leading" secondItem="nxh-mg-lDG" secondAttribute="trailing" constant="16" id="DIC-sO-UjV"/>
+                                        <constraint firstItem="nxh-mg-lDG" firstAttribute="leading" secondItem="vdm-vp-1nI" secondAttribute="leadingMargin" constant="8" id="Det-xk-vjc"/>
+                                        <constraint firstItem="zk7-Cz-vhb" firstAttribute="centerY" secondItem="vdm-vp-1nI" secondAttribute="centerY" id="GEJ-Cy-UU6"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="UFT-YF-1jL" secondAttribute="trailing" constant="50" id="LDT-Ob-18f"/>
+                                        <constraint firstItem="nxh-mg-lDG" firstAttribute="centerY" secondItem="vdm-vp-1nI" secondAttribute="centerY" id="MDS-Jh-sfN"/>
+                                        <constraint firstItem="2SX-DX-scm" firstAttribute="centerY" secondItem="vdm-vp-1nI" secondAttribute="centerY" id="ZRu-ih-yLR"/>
+                                        <constraint firstItem="UFT-YF-1jL" firstAttribute="centerY" secondItem="vdm-vp-1nI" secondAttribute="centerY" id="hAV-5T-tly"/>
+                                    </constraints>
                                 </tableViewCellContentView>
                                 <connections>
                                     <outlet property="flagView" destination="zk7-Cz-vhb" id="HvF-6E-ZCb"/>
