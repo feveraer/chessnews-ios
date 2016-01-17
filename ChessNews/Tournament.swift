@@ -11,6 +11,7 @@ import UIKit
 struct Tournament {
 
     let name: String
+    let details: String
     let startDate: NSDate
     let endDate: NSDate
     let participants: [Player]
