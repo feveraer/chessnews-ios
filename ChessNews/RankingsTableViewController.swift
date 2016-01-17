@@ -29,11 +29,11 @@ class RankingsTableViewController: UITableViewController {
         // configure the cell
         let player = model.players[indexPath.row]
         
-        cell.rankingLabel.text = "\(player.ranking)"
+        cell.rankingLabel.text = "\(indexPath.row + 1)"
         cell.nameLabel.text = player.name
-        cell.ratingLabel.text = "\(player.rating)"
+        cell.ratingLabel.text = player.rating
         
-        let flagUrl = NSURL(string: model.source + player.flag)
+        let flagUrl = NSURL(string: model.source + player.flag!)
         let data = NSData(contentsOfURL: flagUrl!)
         cell.flagView.image = UIImage(data: data!)
         

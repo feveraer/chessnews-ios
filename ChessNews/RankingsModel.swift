@@ -27,10 +27,10 @@ struct RankingsModel {
             for player in doc.css(".list tr") {
                 let playerName = player.css(".name > span").text!
                 let playerFlag = player.css(".print-country").first!["src"]!
-                let playerRank = player.css(".live_pos").text!.stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceAndNewlineCharacterSet())
+                //let playerRank = player.css(".live_pos").text!.stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceAndNewlineCharacterSet())
                 let playerRating = player.css(".live_standard_rating").text!.stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceAndNewlineCharacterSet())
                 
-                players.append(Player(name: playerName, flag: playerFlag, ranking: Int(playerRank)!, rating: Float(playerRating)!))
+                players.append(Player(name: playerName, flag: playerFlag, rating: playerRating))
             }
         }
     }

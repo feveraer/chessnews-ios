@@ -9,7 +9,6 @@
 struct Player {
     let name: String
     // relative path to flag image of player's country
-    let flag: String
-    let ranking: Int
-    let rating: Float
+    let flag: String?
+    let rating: String
 }
