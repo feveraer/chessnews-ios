@@ -32,6 +32,17 @@ class RankingsTableViewController: UITableViewController {
         cell.rankingLabel.text = "\(indexPath.row + 1)"
         cell.nameLabel.text = player.name
         cell.ratingLabel.text = player.rating
+        if player.ratingChange != "0.0" {
+            cell.ratingChangeLabel.text = player.ratingChange
+            let index = player.ratingChange!.startIndex
+            if player.ratingChange![index] == "+" {
+                cell.ratingChangeLabel.textColor = UIColor.greenColor()
+            } else {
+                cell.ratingChangeLabel.textColor = UIColor.redColor()
+            }
+        } else {
+            cell.ratingChangeLabel.text = ""
+        }
         
         let flagUrl = NSURL(string: model.source + player.flag!)
         let data = NSData(contentsOfURL: flagUrl!)

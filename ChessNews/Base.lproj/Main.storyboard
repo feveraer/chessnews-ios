@@ -129,13 +129,21 @@
                                                 <constraint firstAttribute="width" constant="27" id="rY1-n6-6xH"/>
                                             </constraints>
                                         </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Change" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xcj-BX-6MP">
+                                            <rect key="frame" x="423" y="11" width="60" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
                                     </subviews>
                                     <constraints>
+                                        <constraint firstAttribute="trailingMargin" secondItem="UFT-YF-1jL" secondAttribute="trailing" constant="50" id="4sA-Qb-6LE"/>
                                         <constraint firstItem="2SX-DX-scm" firstAttribute="leading" secondItem="zk7-Cz-vhb" secondAttribute="trailing" constant="8" symbolic="YES" id="5ae-g8-9k0"/>
                                         <constraint firstItem="zk7-Cz-vhb" firstAttribute="leading" secondItem="nxh-mg-lDG" secondAttribute="trailing" constant="16" id="DIC-sO-UjV"/>
                                         <constraint firstItem="nxh-mg-lDG" firstAttribute="leading" secondItem="vdm-vp-1nI" secondAttribute="leadingMargin" constant="8" id="Det-xk-vjc"/>
+                                        <constraint firstItem="Xcj-BX-6MP" firstAttribute="centerY" secondItem="vdm-vp-1nI" secondAttribute="centerY" id="FMB-sT-Uk1"/>
                                         <constraint firstItem="zk7-Cz-vhb" firstAttribute="centerY" secondItem="vdm-vp-1nI" secondAttribute="centerY" id="GEJ-Cy-UU6"/>
-                                        <constraint firstAttribute="trailingMargin" secondItem="UFT-YF-1jL" secondAttribute="trailing" constant="50" id="LDT-Ob-18f"/>
+                                        <constraint firstItem="UFT-YF-1jL" firstAttribute="leading" secondItem="Xcj-BX-6MP" secondAttribute="trailing" constant="10" id="JfU-88-LQy"/>
                                         <constraint firstItem="nxh-mg-lDG" firstAttribute="centerY" secondItem="vdm-vp-1nI" secondAttribute="centerY" id="MDS-Jh-sfN"/>
                                         <constraint firstItem="2SX-DX-scm" firstAttribute="centerY" secondItem="vdm-vp-1nI" secondAttribute="centerY" id="ZRu-ih-yLR"/>
                                         <constraint firstItem="UFT-YF-1jL" firstAttribute="centerY" secondItem="vdm-vp-1nI" secondAttribute="centerY" id="hAV-5T-tly"/>
@@ -145,6 +153,7 @@
                                     <outlet property="flagView" destination="zk7-Cz-vhb" id="HvF-6E-ZCb"/>
                                     <outlet property="nameLabel" destination="2SX-DX-scm" id="KVW-QM-V72"/>
                                     <outlet property="rankingLabel" destination="nxh-mg-lDG" id="Zhs-kY-kj5"/>
+                                    <outlet property="ratingChangeLabel" destination="Xcj-BX-6MP" id="fm8-ZP-fg1"/>
                                     <outlet property="ratingLabel" destination="UFT-YF-1jL" id="Xxz-3c-ScQ"/>
                                 </connections>
                             </tableViewCell>

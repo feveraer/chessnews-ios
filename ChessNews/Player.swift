@@ -11,4 +11,5 @@ struct Player {
     // relative path to flag image of player's country
     let flag: String?
     let rating: String
+    let ratingChange: String?
 }
