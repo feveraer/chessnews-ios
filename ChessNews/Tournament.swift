@@ -14,4 +14,6 @@ struct Tournament {
     let startDate: NSDate
     let endDate: NSDate
     let participants: [Player]
+    // 2d array games where each row represents a round
+    let games: [[Game]]
 }

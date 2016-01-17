@@ -32,6 +32,8 @@ class RankingsTableViewController: UITableViewController {
         cell.rankingLabel.text = "\(indexPath.row + 1)"
         cell.nameLabel.text = player.name
         cell.ratingLabel.text = player.rating
+        
+        // show change in rating if not 0
         if player.ratingChange != "0.0" {
             cell.ratingChangeLabel.text = player.ratingChange
             let index = player.ratingChange!.startIndex

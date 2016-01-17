@@ -13,6 +13,9 @@
 		C610C7611C17CD4200FCD716 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C610C7601C17CD4200FCD716 /* CoreData.framework */; };
 		C610C7631C18128A00FCD716 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C610C7621C18128A00FCD716 /* MainViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		C65FB2741C4BF67C00DD32AB /* Tournament.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65FB2731C4BF67C00DD32AB /* Tournament.swift */; settings = {ASSET_TAGS = (); }; };
+		C65FB2761C4C0B2E00DD32AB /* LiveGamesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65FB2751C4C0B2E00DD32AB /* LiveGamesTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		C65FB27A1C4C0BB600DD32AB /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65FB2791C4C0BB600DD32AB /* Game.swift */; settings = {ASSET_TAGS = (); }; };
+		C65FB27C1C4C0CD000DD32AB /* TournamentsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65FB27B1C4C0CD000DD32AB /* TournamentsModel.swift */; settings = {ASSET_TAGS = (); }; };
 		C671494A1C497B6D0064E617 /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67149491C497B6D0064E617 /* Feed.swift */; settings = {ASSET_TAGS = (); }; };
 		C671494E1C49975E0064E617 /* FeedsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C671494D1C49975E0064E617 /* FeedsModel.swift */; settings = {ASSET_TAGS = (); }; };
 		C67149501C49C84B0064E617 /* RankingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C671494F1C49C84B0064E617 /* RankingsTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
@@ -35,6 +38,9 @@
 		C610C7601C17CD4200FCD716 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		C610C7621C18128A00FCD716 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		C65FB2731C4BF67C00DD32AB /* Tournament.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tournament.swift; sourceTree = "<group>"; };
+		C65FB2751C4C0B2E00DD32AB /* LiveGamesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveGamesTableViewController.swift; sourceTree = "<group>"; };
+		C65FB2791C4C0BB600DD32AB /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		C65FB27B1C4C0CD000DD32AB /* TournamentsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TournamentsModel.swift; sourceTree = "<group>"; };
 		C67149491C497B6D0064E617 /* Feed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
 		C671494D1C49975E0064E617 /* FeedsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedsModel.swift; sourceTree = "<group>"; };
 		C671494F1C49C84B0064E617 /* RankingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RankingsTableViewController.swift; sourceTree = "<group>"; };
@@ -78,6 +84,7 @@
 				C610C7621C18128A00FCD716 /* MainViewController.swift */,
 				C610C6F81C17C2D000FCD716 /* FeedTableViewController.swift */,
 				C671494F1C49C84B0064E617 /* RankingsTableViewController.swift */,
+				C65FB2751C4C0B2E00DD32AB /* LiveGamesTableViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -90,6 +97,8 @@
 				C6F12D9C1C49F1B800EE67F6 /* Player.swift */,
 				C6F12D9E1C49F22300EE67F6 /* RankingsModel.swift */,
 				C65FB2731C4BF67C00DD32AB /* Tournament.swift */,
+				C65FB2791C4C0BB600DD32AB /* Game.swift */,
+				C65FB27B1C4C0CD000DD32AB /* TournamentsModel.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -278,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C65FB2741C4BF67C00DD32AB /* Tournament.swift in Sources */,
+				C65FB27A1C4C0BB600DD32AB /* Game.swift in Sources */,
 				C6725E401BFB75C900E4D3B4 /* ChessNews.xcdatamodeld in Sources */,
 				C671494A1C497B6D0064E617 /* Feed.swift in Sources */,
 				C671494E1C49975E0064E617 /* FeedsModel.swift in Sources */,
@@ -286,9 +296,11 @@
 				C6725E381BFB75C900E4D3B4 /* AppDelegate.swift in Sources */,
 				C610C7631C18128A00FCD716 /* MainViewController.swift in Sources */,
 				C6F12D991C49D64300EE67F6 /* PlayerCell.swift in Sources */,
+				C65FB27C1C4C0CD000DD32AB /* TournamentsModel.swift in Sources */,
 				C67149501C49C84B0064E617 /* RankingsTableViewController.swift in Sources */,
 				C6F12D9F1C49F22300EE67F6 /* RankingsModel.swift in Sources */,
 				C6F12D9D1C49F1B800EE67F6 /* Player.swift in Sources */,
+				C65FB2761C4C0B2E00DD32AB /* LiveGamesTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

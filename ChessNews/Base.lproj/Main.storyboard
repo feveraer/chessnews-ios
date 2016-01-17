@@ -208,10 +208,10 @@
             </objects>
             <point key="canvasLocation" x="1893" y="357"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Live games-->
         <scene sceneID="rA4-7D-k6n">
             <objects>
-                <tableViewController id="ze7-rX-ceI" sceneMemberID="viewController">
+                <tableViewController id="ze7-rX-ceI" customClass="LiveGamesTableViewController" customModule="ChessNews" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="6vr-Ua-5C1">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -232,7 +232,7 @@
                             <outlet property="delegate" destination="ze7-rX-ceI" id="wbW-US-8ba"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="jAW-sz-2qb"/>
+                    <navigationItem key="navigationItem" title="Live games" id="jAW-sz-2qb"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ARN-8E-d7j" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
